@@ -1,0 +1,556 @@
+/* Custom CSS */
+body {
+  overflow-x: hidden;
+}
+.upperbody {
+  background-color: #543817 !important;
+}
+.container {
+  background-color: #543817 !important;
+  display: flex;
+}
+.navbar {
+  display: flex;
+}
+.navbar ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+.navbar img {
+  border-radius: 80%;
+}
+.navbar-brand img {
+  height: 52px;
+  margin-left: -63px;
+  width: 70px;
+  /* Adjust the height of the logo */
+}
+ul a {
+  color: white;
+}
+.nav-item {
+  border-left: 10px;
+  border-right: 10px;
+}
+.navbar-nav .nav-link {
+  padding-top: 5px !important; /* Adjust the top padding for nav links */
+}
+
+.navbar .nav-item img {
+  height: 20px; /* Adjust the height of the icons */
+  margin-right: 10px; /* Add some margin between icons and text */
+}
+
+.nav-logo {
+  height: 46px;
+  width: 50px;
+}
+.logo {
+  background-image: url(./large.png);
+  height: 46px;
+  width: 50px;
+  background-size: cover;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 400px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.search-input {
+  background-color: #fff;
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.white {
+  color: white;
+}
+
+.box4 {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 30px;
+}
+
+.arrange {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links-container {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: #543817 !important;
+
+  /* Distribute links evenly */
+}
+
+.links-container a {
+  padding: 10px; /* Adjust padding as needed */
+  text-decoration: none;
+  color: white; /* Adjust link color */
+}
+
+.navbar-brand {
+  max-width: 155px;
+  height: 46px;
+  margin-right: 40px;
+  width: 50px;
+}
+
+.custom-link-container {
+  background-color: lightblue;
+  padding: 10px; /* Adjust padding as needed */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.custom-link-container:hover {
+  text-decoration: underline;
+}
+
+.custom-link-container a {
+  color: #333; /* Adjust link color */
+  text-decoration: none;
+}
+
+.text {
+  margin-left: 10px;
+  color: white;
+  /* Add spacing between image and text */
+}
+
+.text a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner-wrapper {
+  background-image: url(./HomeBanner.jpg);
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.banner-text {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.banner-heading {
+  font-size: 4rem;
+  color: #788a00;
+  font-weight: 500;
+}
+.banner-para {
+  font-size: 2rem;
+  font-weight: 200;
+  color: #fff;
+  text-shadow: gray 2px 6px #000;
+}
+.banner-button {
+  width: 300px;
+  background-color: #788a00;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 0.5rem, 0rem;
+}
+
+.subhead {
+  font-size: 3rem;
+  color: #e66000;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.learnmore {
+  background-image: url(./Cat.webp);
+  background-position: center;
+  background-size: auto;
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learntext {
+  width: 50%;
+  gap: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learncontainer {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.banner-heading1 {
+  font-size: 4rem;
+  color: #e66000;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #dee2e6;
+  width: 100%;
+}
+
+.banner-button2 {
+  /* width: 300px; */
+  background-color: #788a00;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  float: right;
+}
+
+.row2 {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+  background-color: #543817;
+}
+
+.column3 {
+  color: white;
+  box-sizing: border-box;
+}
+
+.banner-button3 {
+  /* width: 300px; */
+  background-color: #788a00;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.footerhead {
+  background-color: #543817;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 38px;
+}
+
+.element1 {
+  padding-left: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 257px;
+}
+
+.element3 {
+  padding-left: 20px;
+
+  align-items: center;
+  margin-right: 257px;
+}
+
+.element4 {
+  padding-right: 20px;
+}
+
+.image-container1 {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap; /* Allow flex items to wrap */
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Allow row to take up full width */
+  justify-content: space-between; /* Ensure images are spaced evenly */
+}
+
+.column img {
+  width: 100%;
+  height: 100%; /* Set height to 100% of container's height */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.menu {
+  position: absolute;
+  z-index: 25;
+  left: 2rem;
+  top: 5rem;
+  filter: invert();
+  display: none;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  .box4 {
+    display: none;
+  }
+
+  .arrange {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .menu {
+    display: block;
+  }
+  .links-container {
+    display: none;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .search-input {
+    flex: 1;
+    padding: 8px;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 8px;
+    cursor: pointer;
+  }
+  /* 
+  .arrange {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  } */
+
+  .links-container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .banner-text {
+    width: 80%;
+  }
+  .image-container1 {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+  .footerhead {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .containor3 {
+    flex-direction: column;
+  }
+  .banner-button3 {
+    visibility: hidden;
+  }
+
+  .navbar-brand img {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .column3 {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-button {
+    margin-bottom: 2rem;
+  }
+  .collapse {
+    visibility: collapse;
+    background-color: #e66000;
+  }
+}
+
+.banner-button1 {
+  width: 300px;
+  background-color: #788a00;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 0.5rem, 0rem;
+}
+
+.banner-heading1 {
+  font-size: 4rem;
+  color: #e66000;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+/* Add media query for medium screens */
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrange {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+
+  .navbar-brand img {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .links-container {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .search-input {
+    flex: 1;
+    padding: 8px;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 8px;
+    cursor: pointer;
+  }
+}
+
+/* Add media query for large screens */
+@media (min-width: 992px) {
+  .banner-text {
+    width: 70%;
+  }
+}
+
+/* Add media query for extra-large screens */
+@media (min-width: 1200px) {
+  .banner-text {
+    width: 60%;
+  }
+}
+
+.containor3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* CSS to hide the image on hover */
+.image-text:hover .image1 {
+  visibility: hidden;
+}
+
+/* Show the content div when hovering over the image container */
+.image-text:hover .hide-show {
+  display: block;
+}
+
+/* Change background color of .image-text on hover */
+.image-text:hover {
+  background-color: orangered;
+}
+
+.image-text2:hover .image2 {
+  visibility: hidden;
+}
+
+.image-text2:hover {
+  background-color: green;
+}
+.image-text2:hover .hide-show {
+  display: block;
+}
+
+.hide-show {
+  display: none;
+  color: black;
+  font-size: 1.5rem;
+}
